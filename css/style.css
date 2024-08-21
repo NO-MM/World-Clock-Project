@@ -1,0 +1,192 @@
+body {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(to right, rgba(255, 0, 102, 0), #48c5ef5e);
+  color: #fff;
+}
+
+.container {
+  width: 900px;
+  margin: 100px;
+  background: linear-gradient(to left, rgba(255, 0, 102, 0) #48c6ef);
+  box-sizing: 10px 10px 10px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  padding: 30px;
+}
+
+              .video-container {
+            width: 100px; 
+            height: 100px; 
+            border-radius: 50%;
+            overflow: hidden;
+            margin: 0 auto; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 5px solid #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            position: relative;
+        }
+        .video-container video {
+            position: absolute;
+            width: 200%; 
+            height: auto;
+            top: -10%; 
+            left: -45%;
+            object-fit: cover;
+        }
+
+
+.h1 {
+  text-align: center;
+  font-size: 36;
+}
+
+select {
+  display: flex;
+  margin: 10px;
+  width: 400px;
+  align-content: center;
+  border-radius: 4px;
+  padding: 10px;
+  margin-left: 250px;
+}
+
+.search-container {
+  text-align: center;
+}
+
+.clock-container {
+  display: flex;
+
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.city-clock {
+  background: rgba(255, 255, 255, 0.1);
+  background-color: rgba(133, 151, 255, 0);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  width: 100px;
+  transition: transform 0.3s ease;
+  border: 2px solid #ffffff;
+}
+
+.clock:hover {
+  transform: scale(1.05);
+}
+
+.city-clock img {
+  width: 40px;
+  height: auto;
+  margin-right: 10px;
+}
+
+h2 {
+    margin: 0 0 10px;
+    font-size: 1.5em;
+}
+
+.time {
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  animation: pulse 1.5s infinite;
+}
+
+.clock {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border: 5px solid#363636;
+      border-radius: 50%;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+.hand {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+        transform-origin: bottom center;
+    background-color: #363636;
+    transform: rotate(90deg); 
+}
+
+.hour-hand {
+    width: 6px;
+        height: 21px;
+    border-radius: 6px 6px 0 0;
+}
+
+.minute-hand {
+    width: 4px;
+        height: 35px;
+    border-radius: 4px 4px 0 0;
+}
+
+.second-hand {
+    width: 2px;
+    height: 40px;
+       border-radius: 2px 2px 0 0;
+    background-color: #f00; 
+}
+
+.center-dot {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #363636;
+        border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.number {
+    position: absolute;
+    color: #363636;
+        font-size: 10px;
+    font-weight: bold;
+}
+
+.number1 { top: 11px; left: 70%; transform: translateX(-50% -50%); }
+.number2 { top: 30%; left: 85%; transform: translate(-50%, -50%); }
+.number3 { top: 50%; right: 7px; transform: translateY(-50%); }
+.number4 { top: 70%; right: 10px; transform: translateY(-50%); }
+.number5 { bottom: 15%; left: 75%; transform: translate(-50%, 50%); }
+.number6 { bottom: 5px; left: 50%; transform: translateX(-50%); }
+.number7 { bottom: 15%; left: 25%; transform: translate(-50%, 50%); }
+.number8 { top: 70%; left: 10px; transform: translateY(-50%); }
+.number9 { top: 50%; left: 7px; transform: translateY(-50%); }
+.number10 { top: 30%; right: 75%; transform: translate(-50%, -50%); }
+.number11 { top: 11px; right: 70%; transform: translateX(-50% -50%); }
+.number12 { top: 5%; left: 50%; transform: translate(-50%); }
+
+@keyframes pulse {
+    0% {
+        text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    }
+    50% {
+        text-shadow: 0 0 20px rgba(255, 255, 255, 0.7);
+            }
+    100% {
+        text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    }
+}
+
+footer {
+padding: 30px 0 0 0;
+text-align: center;
+font-size: 13px;
+color: rgba(0, 0, 0, 0.6);
+}
