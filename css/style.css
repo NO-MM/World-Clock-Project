@@ -5,7 +5,7 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
-  background: linear-gradient(to right, rgba(255, 0, 102, 0), #48c5ef5e);
+  background: linear-gradient(to right, rgba(255, 0, 102, 0), #48c5efd5);
   color: #fff;
 }
 
@@ -108,7 +108,7 @@ h2 {
     width: 100px;
     height: 100px;
     border: 5px solid#363636;
-      border-radius: 50%;
+    border-radius: 50%;
     background-color: #ffffff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
 }
@@ -117,27 +117,27 @@ h2 {
     position: absolute;
     bottom: 50%;
     left: 50%;
-        transform-origin: bottom center;
+    transform-origin: bottom center;
     background-color: #363636;
     transform: rotate(90deg); 
 }
 
 .hour-hand {
     width: 6px;
-        height: 21px;
+    height: 21px;
     border-radius: 6px 6px 0 0;
 }
 
 .minute-hand {
     width: 4px;
-        height: 35px;
+    height: 35px;
     border-radius: 4px 4px 0 0;
 }
 
 .second-hand {
     width: 2px;
     height: 40px;
-       border-radius: 2px 2px 0 0;
+    border-radius: 2px 2px 0 0;
     background-color: #f00; 
 }
 
