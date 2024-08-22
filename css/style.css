@@ -5,17 +5,29 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
-  background: linear-gradient(to right, rgba(255, 0, 102, 0), #48c5efd5);
-  color: #fff;
+  background: linear-gradient(to right, rgba(255, 0, 102, 0.103), #48c5ef);
+  color: #ffffff;
 }
 
 .container {
   width: 900px;
   margin: 100px;
-  background: linear-gradient(to left, rgba(255, 0, 102, 0) #48c6ef);
-  box-sizing: 10px 10px 10px rgba(0, 0, 0, 0.4);
+  background: linear-gradient(to left, rgb(255, 0, 102) #ef4848);
+  box-sizing: 10px 10px 10px rgb(0, 0, 0);
   border-radius: 10px;
   padding: 30px;
+}
+
+.city {
+  display: flex;
+  margin: 10px 0;
+  justify-content: space-between;
+  padding: 30px 0;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+}
+
+.city:last-child {
+  border: none;
 }
 
               .video-container {
@@ -62,7 +74,6 @@ select {
 
 .clock-container {
   display: flex;
-
   gap: 20px;
   flex-wrap: wrap;
   justify-content: center;
@@ -76,7 +87,7 @@ select {
   border-radius: 15px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
   text-align: center;
-  width: 100px;
+  width: 130px;
   transition: transform 0.3s ease;
   border: 2px solid #ffffff;
 }
@@ -86,7 +97,7 @@ select {
 }
 
 .city-clock img {
-  width: 40px;
+  width: 60px;
   height: auto;
   margin-right: 10px;
 }
