@@ -25,7 +25,6 @@ function updateTime() {
     );
   }
 
-
   // Tokyo
   let tokyoElement = document.querySelector("#tokyo");
   if (tokyoElement) {
@@ -39,8 +38,7 @@ function updateTime() {
     );
   }
 
-
-// Sydney
+  // Sydney
   let sydneyElement = document.querySelector("#sydney");
   if (sydneyElement) {
     let sydneyDateElement = sydneyElement.querySelector(".date");
@@ -72,9 +70,8 @@ function updateCity(event) {
     "A"
   )}</small></div>
   </div>
-  `;
+`;
 }
-
 
 updateTime();
 setInterval(updateTime, 1000);
