@@ -1,5 +1,7 @@
 # 🌍 World Clock Project
 
+![World Clock Screenshot](gallery/images/worldclock.png)
+
 A responsive web application that displays the current time and date for multiple cities around the world. Built with **HTML, CSS, JavaScript**, and enhanced with **Moment.js** and **Moment Timezone** for accurate time zone handling.
 
 ---
